@@ -1,0 +1,181 @@
+body{
+ margin: 0 0 0 0;
+ width: 100%;
+}
+#top{
+  width: 100%;
+  margin-right: 0px;
+  opacity:10;
+  height: 800px;
+  background-size: cover;
+  background-image: url("../proimg/img1.jpg");
+  /* background-size: 1550px 800px ; */
+  margin-bottom: 50;
+
+}
+.left{
+  width: 100%;
+  display: inline-block;
+  position: absolute;
+  top:30px;
+  left: 34px;
+}
+
+ .header{
+   background: black;
+}
+.mid{
+
+  display:block;
+  width: 85%;
+   margin: 0 auto 100px 300px;
+}
+.navbar{
+margin-top: 0;
+display:inline-block;
+
+}
+.navbar ul {
+  position:static;
+margin:0 0 0 0;
+
+}
+
+.navbar li{
+   padding: 10px;
+  display: inline-block;
+  font-size: 15px;
+}
+.navbar li a{
+  color: white;
+  text-decoration: none;
+  padding: 30px 23px;
+}
+.navbar li a:hover,.navbar li a.active{
+  text-decoration: underline;
+  color: yellow;
+}
+.middle{
+  margin-top: 70px;
+  display: inline-block;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+.para{
+  text-align: center;
+  margin: 70px 0 50px 140px;
+  display: block;
+  font-size:30px;
+  width: 80%;
+}
+.button{
+  border: none;
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 20px;
+  color: white;
+  background: red;
+  padding: 20px;
+}
+.button:hover{
+  color: black;
+  background :yellow ;
+  transition-duration: 0.4s;
+}
+h5{
+  width:50%;
+  margin: 100px auto 10px auto;
+  font-size: 80px;
+}
+.page2{
+  background-color: white;
+  color: black;
+  font-weight: lighter;
+
+  text-align: center;
+  width: 55%;
+  margin: auto 50px auto 350px;
+  font-size: 17px
+}
+hr{
+  background: none;
+  border: dotted red 4px;
+  border-bottom: none;
+  width: 4%;
+  margin: 50px auto  100px;
+}
+
+.info{
+  border: 1px solid rgb(128, 146, 175);
+  padding: 10px;
+  margin: 100px 0 50px 160px;
+  display: inline-block;
+   width:20% ;
+}
+.resiz{
+  margin-left: 30px;
+  width:40px;
+  border-radius: 30px;
+}
+.container{
+  margin:auto auto 100px 100px;
+}
+.container div{
+  /* width: 20; */
+  margin: 20px;
+  display: inline-block;
+  /* border: 2px solid red; */
+}
+.container div  img{
+  display: inline-block;
+width:100%;
+height: 200px
+}
+.container div  h2 {
+  text-align: center;
+  font-size: 30px;
+}
+.container h3{
+text-align: center;
+font-size: 100px;
+font-weight: bolder;
+font-family: monospace;
+}
+.container div  p{
+  margin-top: 10px;
+  width: 80%;
+  display: inline-block;
+  text-align: center;
+  margin-left: 40px;
+  line-height: 2;
+  font-size: 20px;
+  font-style: italic;
+}
+.trainer1{
+/* border: 1.5px solid gray; */
+  display: inline-block;
+  width:30%;
+}
+
+.trainer2{
+  /* border: 1.5px solid gray; */
+  display: inline-block;
+  width:30%;
+}
+.trainer3{
+  /* border: 1.5px solid gray; */
+  display: inline-block;
+  width: 30%;
+}
+.bottom-container{
+  /* background-color:light red; */
+  margin-left: 100px 0 auto auto;
+  text-align: center;
+  color: #11999E;
+  padding: 50px 0 20px;
+  font-size: 20px;
+  font-style:normal;
+
+}
